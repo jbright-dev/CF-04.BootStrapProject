@@ -207,6 +207,37 @@
 - in order to prevent content overflow, we will need to add the overflow-hidden  class to our right bottom column
 <hr>
 
+## Grid 3B
+- Create a new file named Grid3B.html
+- Copy and paste the entier contents from Grid 3 to Grid 3B
+- Navigate back to the Grid 3 html and create an Unordered list with a nav class within the container div like so:
+  ```
+  <main class=flex-shrink-0>
+    <div class="container h-100 minHeight>    
+           <ul class="nav nav-pills mb-1">
+               <li class="nav-item">
+                   <a href="Grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
+               </li>
+               <li class="nav-item">
+                   <a href="Grid3B.html" class="nav-link" aria-current="page">Grid 3B</a>
+               </li>
+           </ul>
+  ```
+
+- Copy the unordered list to the Grid 3B html file
+- remove the button, as we will not need it
+- remove the flex column and overflow from teh right column div
+- create a form tag and give it a class of "d-flex"
+- create an input tag and give it a class of "form-control me-2" give it a type and placeholder of search, and give the tag a aria-label of search.
+- Add a button and give it a class of "btn btn-outline-light" give it a type of submit and a label of search
+  ```
+  <button class="btn btn-outline-light" type="submit">search</button>
+  ```
+
+- Remove the height and overflow from the right bottom column, give the title a h5 title of More Articles and create another navigation using the unordered list
+- the ul will have a class of "nav flx-column"
+- create an ordered list witha  class of "nav-item
+<hr>
 ## Credits
 
 ### Project References
