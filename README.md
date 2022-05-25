@@ -36,6 +36,57 @@
   -   .g-0 can be used to remove all gutters
 <hr>
 
+### Styling the Landing Page Text
+
+- In order to style the landing page text we must move to the main container under the nav bar container
+- our text is placed in the within the main container
+- in order to center the text, containers div class will be adjusted like so:
+  ```
+  <div class="container text-center">
+  ```
+
+
+- We'll then colorize the container by adding a class to the the sub title:
+  ```
+  <h3 class="text-white">
+  ```
+
+
+- in order to adjust the margins will will edit the div class again like so:
+  ```
+  <div class="container text center mt-5>
+  ```
+  - in this instance m stands for margin and t stands for top
+  
+
+- Next we will adjust the Main title by adding a class to the header tag to center it, enlarge it, and colorize it
+  ```
+  <h1 class=text-center display-1>
+  ```
+
+
+- We will now change the font by including a link to our font source above our style sheet
+  ```
+  <link rel="stylesheet" href="https://use.typekit.net/mhj5wdi.css">
+  ```
+
+
+- Next we will add CSS styling so the html document will accept the font changes
+  ```
+  .homeText{
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0);
+  }
+  ```
+
+- Finally we will add the homeText class to our Main Title by including the new style class in the header tag:
+  ```
+  <h1 class="text-center display-1 homeText>
+  ```
+<hr>
+
 ## Bootstrap Grids
 
 ## Credits
