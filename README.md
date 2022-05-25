@@ -87,7 +87,19 @@
   ```
 <hr>
 
-## Bootstrap Grids
+## Grid 1
+
+![Grid One Reference](img/Grid1.png)
+
+#### *During this section we will be building a page with a two column grid*
+<hr>
+
+### Things to Remember
+
+- Everything in bootstrap is built upon the grid system, which is a row and twelve columns
+  
+- each row must take up at least tweleve units, therefore we are building a page with two six-unit columns
+
 
 ## Credits
 ### Project References
