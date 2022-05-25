@@ -152,7 +152,59 @@
 <hr>
 
 ## Grid 3
+![Grid Three Reference](img/Grid3.png)
+![Grid Three B Reference](img/Grid3B.png)
 
+### Setting up the Code
+
+- Set up column scaffolding
+- Add comment annotatin left column, right column
+- Give the left column a div class of col-7 and give the right column a div class of col-5 
+- add two additional divs to the right column and annotate them as right top column and right bottom column like so:
+  ```
+  <!--RIGHT COLUMN-->
+   <div class ="col-5">
+    <!--RIGHT TOP COLUMN-->
+    <div>
+
+    </div>
+    <!--RIGHT BOTTOM COLUMN-->
+     <div>
+
+     </div>
+    </div>
+  </div>   
+  ```
+  - be sure that your divs are properly closed in order to prevent errors
+
+- Give the left column the class of h-100 so it will stretch to the bottom of the page
+<hr>
+
+### Setting up the Right Column
+
+- While the Right Column has a height of 100, we will need to give the top and bottom portion a height of 50, and we will give the bottom column a margin of 2
+
+- Add a button to the bottom right column by entering the following after the first closing div:
+  ```
+  <div>
+    <button class="btn btn-light" type="button">Read More</button>
+  </div>
+  ```
+
+
+- Give the the class of "bg-dark text-light border border-top p-2"
+- place padding of p-2 in the bottom and top column
+  
+#### Justifying the stacked boxes
+
+- in order to justiy our boxes, add a flex box class to the right container like so: 
+  ```
+  <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+  ```
+
+#### Preventing overflow of content
+
+- in order to prevent content overflow, we will need to add the overflow-hidden  class to our right bottom column
 <hr>
 
 ## Credits
