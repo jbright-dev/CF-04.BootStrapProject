@@ -99,12 +99,56 @@
 - Everything in bootstrap is built upon the grid system, which is a row and twelve columns
   
 - each row must take up at least tweleve units, therefore we are building a page with two six-unit columns
+  
+### Setting up our Code
 
+- First we must create a row div class within our main container
+  ```
+  <div class="row">
+  ```
+  - Note about rows: If you're going to have columns, columns must be nested inside of a parent element with a row
+  
+- A good practice to follow when setting up columns is to scaffold out the basic layout for our columns. This ensures that our divs are closed properly and are structured right.
+  
+- Another good practice to follow, if you know you're going to have content that will contain  multiple tags, is to wrap a div around the the content within the columns. This allows us to center the content within the column by centering the "wrapper" div. this is done by entering the following code"
+  ```
+      <main class="flex-shrink-0"> 
+       <div class="container">*this is our main container*
+        <div class="row">
+           <div class="col">
+               <div> *wrapper div*
+                   COL ONE
+               </div> *wrapper div*
+
+           </div> 
+           <div class="col">
+               <div> *wrapper div*
+                   COL TWO
+               </div> *wrapper div*
+           </div> 
+        </div>
+       </div> *this is our main container*
+    </main>
+  ```
+  
+  
+- Set the div class for Col 1 to "bg-dark text light" 
+- Set the div class for Col 2 to "bg-secondary text light"
+- you can control the gutter by editing the row class
+- you can adust paddign by adding p* to the column class
+- you can extend the columns all the way down you can set a .minHeight in the CSS style sheet and adding it to the container class
+- if you'd like to take mobile viewing into consideration (for bootstrap 4.6 and up) you can add row-cols-* to your class; don't forget you can adjust the gutter with gy, gx, or g
+  
+<hr>
+
+## Grid 2
+
+<hr>
 
 ## Credits
+
 ### Project References
 
 - <a href="https://learn.coderfoundry.com">Coder Foundry Complete .Net Coding Bootcamp</a>
-     
-### Frontend
 - <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5 Docs</a>
+- <a href="https://getbootstrap.com/docs/5.0/utilities/colors/">Bootstrap 5 Colors</a>
