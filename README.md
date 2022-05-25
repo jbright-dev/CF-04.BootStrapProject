@@ -143,6 +143,16 @@
 
 ## Grid 2
 
+![Grid Two Reference](img/Grid2.png)
+
+- Set up column scaffolding, minheight, column background and text, and column height like we did in Grid 1
+
+- use col-* to adjust the size of each column as you see fit, in this instance i used col-3 for the side nav and col-9 for the main content
+
+<hr>
+
+## Grid 3
+
 <hr>
 
 ## Credits
