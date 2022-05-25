@@ -92,7 +92,7 @@
 ## Credits
 ### Project References
 
-- <a href="https://learn.coderfoundry.com">Coder Foundry Complete .Net Codign Bootcamp</a>
+- <a href="https://learn.coderfoundry.com">Coder Foundry Complete .Net Coding Bootcamp</a>
      
 ### Frontend
 - <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5 Docs</a>
