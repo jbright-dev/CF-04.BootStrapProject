@@ -152,8 +152,8 @@
 <hr>
 
 ## Grid 3
+
 ![Grid Three Reference](img/Grid3.png)
-![Grid Three B Reference](img/Grid3B.png)
 
 ### Setting up the Code
 
@@ -208,6 +208,10 @@
 <hr>
 
 ## Grid 3B
+
+
+![Grid Three B Reference](img/Grid3B.png)
+
 - Create a new file named Grid3B.html
 - Copy and paste the entier contents from Grid 3 to Grid 3B
 - Navigate back to the Grid 3 html and create an Unordered list with a nav class within the container div like so:
@@ -238,7 +242,9 @@
 - the ul will have a class of "nav flx-column"
 - create an ordered list witha  class of "nav-item
 <hr>
-## Credits
+
+## Note
+- For the sake of brevity, the remaining grid instructions will be provided upon request. - J. Bright
 
 ### Project References
 
